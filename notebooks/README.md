@@ -11,7 +11,7 @@
 
 ### Notebook orders:
 
-(1) TSS call:
+#### (1) TSS call:
 
 Inputs: 
 
@@ -27,7 +27,7 @@ Outputs:
 * TSS sites passed filters, BED file (e.g., `HEK_KO.called.ben.passed.bed`)
 * TSS sites failed to pass the filters, BED file (e.g., `HEK_WT.called.ben.filtered_out.bed`)
 
-(2) Merge TSS list:
+#### (2) Merge TSS list:
 
 Input: 
 
@@ -41,7 +41,7 @@ Outputs:
 
 * TSS site list (e.g. `CROWN_sites.txt`)
 
-(3) Run m6Am call:
+#### (3) Run m6Am call:
 
 * For HEK293T (WT): `CROWN-Seq_measure_m6Am_HEK293T_WT.ipynb`
 * For A549 (WT): `CROWN-Seq_measure_m6Am_A549_WT.ipynb` 
@@ -50,5 +50,5 @@ Outputs:
 
 * A pileup table for A/U/C/G counts (e.g., `HEK293T_WT.CROWN.csv`)
 
-(4) Downstream analysis is based on the pileups.
+#### (4) Downstream analysis is based on the pileups.
 
