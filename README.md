@@ -14,7 +14,10 @@ The CROWN-Seq pipeline consists of three steps:
 2. Merge all TSSs found.
 3. Measure the m6Am levels. 
 
-Read the notebooks under `notebooks` folder for details. 
+
+Please read notebooks under `notebooks` folder for details. 
+
+Please read the GLORI mapping pipeline (https://github.com/jhfoxliu/GLORI_pipeline) to see how to map CROWN-seq reads.
 
 Scripts for metadata generation are under `scripts` folder (and also under the `notebooks` folder).
 
