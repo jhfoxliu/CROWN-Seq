@@ -2,7 +2,7 @@
 python gtf2anno_plus.py -i {name}.gtf > {name}.anno
 
 # extract tss information from anno file
-python anno_to_tss -i {name}.anno > {name}.tss
+python anno_to_tss.py -i {name}.anno | bedtools sort -i - > {name}.tss
 
 # convert gtf file to genelist file
 python gtf2genelist.py -i {name}.gtf -f transcripts.fa > {name}.genelist

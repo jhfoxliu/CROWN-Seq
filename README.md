@@ -8,10 +8,11 @@ This repo is currently for illustration only. The detailed experimental protocol
 
 ## How to
 
-The CROWN-Seq pipeline consists of two parts:
+The CROWN-Seq pipeline consists of three steps:
 
-1. Obtain accurate transcription-start sites by ReCappable-Seq or CROWN-Seq. (see `denovo` folder)
-2. Measure the m6Am levels. (see `m6Am_call` folder)
+1. Obtain accurate transcription-start sites (TSS) by ReCappable-Seq or CROWN-Seq. (see `notebook/denovo` folder)
+2. Merge all TSSs found. (see `notebook/merge` folder)
+3. Measure the m6Am levels. (see `notebook/m6Am_call` folder)
 
 Scripts for metadata generation are under `scripts` folder.
 
