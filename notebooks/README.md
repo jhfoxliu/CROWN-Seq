@@ -6,7 +6,7 @@
 (2) Merge TSS list from different runs
 (3) Use the *denovo* called site list to fetch all 5' end reads at TSS
 
-(1) and (2) are optional if you can provide a site list)
+(1) and (2) are optional if you can provide a site list
 
 
 ### Notebook orders:
