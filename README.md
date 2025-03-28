@@ -1,6 +1,6 @@
 # CROWN-seq
 
-Examples can be found under `Notebooks`
+Examples can be found under `notebooks`
 
 
 ## Contact
