@@ -1,10 +1,7 @@
 # CROWN-seq
 
-(Updating examples...)
+Examples can be found under `Notebooks`
 
-## Note
-
-## How to
 
 ## Contact
 
